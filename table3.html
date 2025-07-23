@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input type="text" id="v1">
+        <input type="submit" value="print table" onclick="Table()">
+    </div>
+    <div id="o1"></div>
+    <div id="o2"></div>
+    
+
+    <script>
+        function Table(){
+            let v11 = document.getElementById("v1")
+            let v111=parseInt(v11.value)
+            let o11=document.getElementById("o1")
+
+            o11.innerHTML=`
+        ${v111} X 1 = ${v111*1} <br>
+        ${v111} X 2 = ${v111*2} <br>
+        ${v111} X 3 = ${v111*3} <br>
+        ${v111} X 4 = ${v111*4} <br>
+        ${v111} X 5 = ${v111*5} <br>
+        ${v111} X 6 = ${v111*6} <br>
+        ${v111} X 7 = ${v111*7} <br>
+        ${v111} X 8 = ${v111*8} <br>
+        ${v111} X 9 = ${v111*9} <br>
+        ${v111} X 10 =${v111*10} <br>
+ 
+            `
+
+            
+
+        }
+    </script>
+</body>
+</html>
