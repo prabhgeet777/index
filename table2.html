@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input type="text" id="v1">
+        <input type="submit" value="print table" onclick="Table()">
+    </div>
+    <div id="o1"></div>
+    
+
+    <script>
+        function Table(){
+            let v11 = document.getElementById("v1")
+            let v111=parseInt(v11.value)
+            let o11=document.getElementById("o1")
+            let t=v111
+            t+=" x 1 ="
+            t+=v111*1
+
+            t+="<br />"
+            
+            t+=v111
+            t+=" x 2 ="
+            t+=v111*2
+            
+            t+="<br />"
+
+            t+=v111
+            t+=" x 3="
+            t+=v111*3
+            
+            t+="<br/>"
+
+            t+=v111
+            t+=" x 4="
+            t+=v111*4
+
+            t+="<br/>"
+
+            t+=v111
+            t+=" x 5="
+            t+=v111*5
+
+            t+="<br/>"
+
+            t+=v111
+            t+=" x 6="
+            t+=v111*6
+
+            t+="<br/>"
+
+            t+=v111
+            t+=" x 7="
+            t+=v111*7
+
+            t+="<br/>"
+
+            t+=v111
+            t+=" x 8="
+            t+=v111*8
+
+            t+="<br/>"
+
+            t+=v111
+            t+=" x 9="
+            t+=v111*9
+
+            t+="<br/>"
+
+            t+=v111
+            t+=" x 10="
+            t+=v111*10
+
+            t+="<br/>"
+
+            o11.innerHTML=t
+
+            
+
+        }
+    </script>
+</body>
+</html>
